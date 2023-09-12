@@ -1,84 +1,111 @@
 ### Step 2A
-
+/c/Users/Tibz/Desktop
 
 ### Step 2B
-
+cd Desktop
 
 ### Step 2C
-
+cd unit1-git-practice
 
 ### Step 2D
-
+/c/Users/Tibz/Desktop/unit1-git-practice
 
 ### Step 2E
-
+ls
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
-
+cd ..
 
 ### Step 2H
-
+/c/Users/Tibz/Desktop
 
 ### Step 2I
+'Among Us.url'                          Discord.lnk*         'L-Connect 3.lnk'*      'Unreal Engine.lnk'*       'WinX HD Video Converter Deluxe.lnk'*
+'Counter-Strike Global Offensive.url'  'Halo Infinite.url'   'Rocket League.url'      UserBenchmark.lnk*         desktop.ini
+'Dead by Daylight.url'                 'King - Chrome.lnk'*   SMITE.url              'Visual Studio Code.lnk'*   unit1-git-practice/
+ Deceit.url                            "KovaaK's.url"        'Ubisoft Connect.lnk'*  'Wallpaper Engine.url'      watch.url
 
 
 ### Step 2J
-
+cd ~
 
 ### Step 2K
 
-
+$ cd Desktop/unit1-git-practice/
 
 ### Step 3A
 
+$ mkdir -p veggies meats desserts
 
 ### Step 3B
-
+$ mv desserts sweets
 
 ### Step 3C
+$ mkdir proteins
 
 
 ### Step 3D
+$ mv meats /proteins
 
 
 ### Step 3E
-
+cd veggies
+touch carrot.txt pea.txt
 
 ### Step 3F
+cd ..
+$ cd sweets/
+$ touch cookie.txt
 
 
 ### Step 3G
+$ mv cookie.txt donut.txt
 
 
 ### Step 3H
+cd ..
+$ touch thing.txt
 
 
 ### Step 3I
+$ cp thing.txt tofu.txt
 
 
 ### Step 3J
+$ mv tofu.txt /proteins/
 
 
 ### Step 3K
+$ cp thing.txt crab.txt
+$ mv crab.txt proteins/meats/
 
 
 ### Step 3L
 
+$ rm thing.txt
 
 ### Step 3M
+$ cp -r veggies plants
 
 
 ### Step 3N
-
+$ mkdir drinks
+$ rm -r drinks
 
 
 ### Step 4
-
+git add .
+git commit -m 'first commit'
 
 ### Step 5
+$ git remote add origin https://github.com/MohammadEl-khatib/unit1-git-practice.git
+
+$ git branch -M main
+
+$ git push -u origin main
 
 
 ### Step 6
